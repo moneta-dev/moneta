@@ -1,0 +1,6 @@
+obj-test/serialize_tests.o: test/serialize_tests.cpp \
+ /root/moneta/src/serialize.h /root/moneta/src/allocators.h \
+ /root/moneta/src/version.h /root/moneta/src/clientversion.h
+test/serialize_tests.cpp :
+ /root/moneta/src/serialize.h /root/moneta/src/allocators.h :
+ /root/moneta/src/version.h /root/moneta/src/clientversion.h :

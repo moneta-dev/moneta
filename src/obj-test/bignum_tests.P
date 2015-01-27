@@ -1,0 +1,12 @@
+obj-test/bignum_tests.o: test/bignum_tests.cpp /root/moneta/src/bignum.h \
+ /root/moneta/src/util.h /root/moneta/src/uint256.h \
+ /root/moneta/src/netbase.h /root/moneta/src/serialize.h \
+ /root/moneta/src/allocators.h /root/moneta/src/version.h \
+ /root/moneta/src/clientversion.h /root/moneta/src/compat.h \
+ /root/moneta/src/util.h
+test/bignum_tests.cpp /root/moneta/src/bignum.h :
+ /root/moneta/src/util.h /root/moneta/src/uint256.h :
+ /root/moneta/src/netbase.h /root/moneta/src/serialize.h :
+ /root/moneta/src/allocators.h /root/moneta/src/version.h :
+ /root/moneta/src/clientversion.h /root/moneta/src/compat.h :
+ /root/moneta/src/util.h :

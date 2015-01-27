@@ -1,0 +1,20 @@
+obj-test/sigopcount_tests.o: test/sigopcount_tests.cpp \
+ /root/moneta/src/script.h /root/moneta/src/keystore.h \
+ /root/moneta/src/crypter.h /root/moneta/src/allocators.h \
+ /root/moneta/src/key.h /root/moneta/src/serialize.h \
+ /root/moneta/src/version.h /root/moneta/src/clientversion.h \
+ /root/moneta/src/uint256.h /root/moneta/src/hash.h \
+ /root/moneta/src/sync.h /root/moneta/src/threadsafety.h \
+ /root/moneta/src/bignum.h /root/moneta/src/util.h \
+ /root/moneta/src/netbase.h /root/moneta/src/compat.h \
+ /root/moneta/src/key.h
+test/sigopcount_tests.cpp :
+ /root/moneta/src/script.h /root/moneta/src/keystore.h :
+ /root/moneta/src/crypter.h /root/moneta/src/allocators.h :
+ /root/moneta/src/key.h /root/moneta/src/serialize.h :
+ /root/moneta/src/version.h /root/moneta/src/clientversion.h :
+ /root/moneta/src/uint256.h /root/moneta/src/hash.h :
+ /root/moneta/src/sync.h /root/moneta/src/threadsafety.h :
+ /root/moneta/src/bignum.h /root/moneta/src/util.h :
+ /root/moneta/src/netbase.h /root/moneta/src/compat.h :
+ /root/moneta/src/key.h :

@@ -1,0 +1,8 @@
+obj-test/netbase_tests.o: test/netbase_tests.cpp \
+ /root/moneta/src/netbase.h /root/moneta/src/serialize.h \
+ /root/moneta/src/allocators.h /root/moneta/src/version.h \
+ /root/moneta/src/clientversion.h /root/moneta/src/compat.h
+test/netbase_tests.cpp :
+ /root/moneta/src/netbase.h /root/moneta/src/serialize.h :
+ /root/moneta/src/allocators.h /root/moneta/src/version.h :
+ /root/moneta/src/clientversion.h /root/moneta/src/compat.h :

@@ -1,0 +1,12 @@
+obj-test/alert_tests.o: test/alert_tests.cpp /root/moneta/src/alert.h \
+ /root/moneta/src/uint256.h /root/moneta/src/util.h \
+ /root/moneta/src/netbase.h /root/moneta/src/serialize.h \
+ /root/moneta/src/allocators.h /root/moneta/src/version.h \
+ /root/moneta/src/clientversion.h /root/moneta/src/compat.h \
+ /root/moneta/src/serialize.h /root/moneta/src/util.h
+test/alert_tests.cpp /root/moneta/src/alert.h :
+ /root/moneta/src/uint256.h /root/moneta/src/util.h :
+ /root/moneta/src/netbase.h /root/moneta/src/serialize.h :
+ /root/moneta/src/allocators.h /root/moneta/src/version.h :
+ /root/moneta/src/clientversion.h /root/moneta/src/compat.h :
+ /root/moneta/src/serialize.h /root/moneta/src/util.h :

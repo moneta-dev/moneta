@@ -1,0 +1,4 @@
+obj-test/uint256_tests.o: test/uint256_tests.cpp \
+ /root/moneta/src/uint256.h
+test/uint256_tests.cpp :
+ /root/moneta/src/uint256.h :

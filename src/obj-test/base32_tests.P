@@ -1,0 +1,10 @@
+obj-test/base32_tests.o: test/base32_tests.cpp /root/moneta/src/util.h \
+ /root/moneta/src/uint256.h /root/moneta/src/netbase.h \
+ /root/moneta/src/serialize.h /root/moneta/src/allocators.h \
+ /root/moneta/src/version.h /root/moneta/src/clientversion.h \
+ /root/moneta/src/compat.h
+test/base32_tests.cpp /root/moneta/src/util.h :
+ /root/moneta/src/uint256.h /root/moneta/src/netbase.h :
+ /root/moneta/src/serialize.h /root/moneta/src/allocators.h :
+ /root/moneta/src/version.h /root/moneta/src/clientversion.h :
+ /root/moneta/src/compat.h :

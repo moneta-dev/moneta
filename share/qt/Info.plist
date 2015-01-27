@@ -7,7 +7,7 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleGetInfoString</key>
-	<string>$VERSION, Copyright © 2009-$YEAR The Bitcoin developers</string>
+	<string>$VERSION, Copyright © $YEAR MONETA Corp. developers </string>
 	<key>CFBundleShortVersionString</key>
 	<string>$VERSION</string>
 	<key>CFBundleVersion</key>
@@ -15,19 +15,19 @@
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleExecutable</key>
-	<string>EarthCoin-Qt</string>
+	<string>Moneta-Qt</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.getearthcoin.EarthCoin-Qt</string>
+	<string>com.getmoneta.Moneta-Qt</string>
         <key>CFBundleURLTypes</key>
         <array>
           <dict>
             <key>CFBundleTypeRole</key>
             <string>Editor</string>
             <key>CFBundleURLName</key>
-            <string>com.getearthcoin.EarthCoinPayment</string>
+            <string>com.getmoneta.MonetaPayment</string>
             <key>CFBundleURLSchemes</key>
             <array>
-              <string>earthcoin</string>
+              <string>moneta</string>
             </array>
           </dict>
         </array>

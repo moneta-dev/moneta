@@ -1,0 +1,20 @@
+obj-test/script_P2SH_tests.o: test/script_P2SH_tests.cpp test/../main.h \
+ test/../bignum.h test/../util.h test/../uint256.h test/../netbase.h \
+ test/../serialize.h test/../allocators.h test/../version.h \
+ test/../clientversion.h test/../compat.h test/../sync.h \
+ test/../threadsafety.h test/../net.h test/../mruset.h \
+ test/../limitedmap.h test/../protocol.h test/../addrman.h test/../hash.h \
+ test/../bloom.h test/../script.h test/../keystore.h test/../crypter.h \
+ test/../key.h test/../scrypt.h test/../script.h test/../wallet.h \
+ test/../main.h test/../ui_interface.h test/../walletdb.h test/../db.h \
+ test/../base58.h
+test/script_P2SH_tests.cpp test/../main.h :
+ test/../bignum.h test/../util.h test/../uint256.h test/../netbase.h :
+ test/../serialize.h test/../allocators.h test/../version.h :
+ test/../clientversion.h test/../compat.h test/../sync.h :
+ test/../threadsafety.h test/../net.h test/../mruset.h :
+ test/../limitedmap.h test/../protocol.h test/../addrman.h test/../hash.h :
+ test/../bloom.h test/../script.h test/../keystore.h test/../crypter.h :
+ test/../key.h test/../scrypt.h test/../script.h test/../wallet.h :
+ test/../main.h test/../ui_interface.h test/../walletdb.h test/../db.h :
+ test/../base58.h :

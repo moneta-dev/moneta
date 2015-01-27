@@ -1,0 +1,24 @@
+obj-test/canonical_tests.o: test/canonical_tests.cpp \
+ /root/moneta/src/json/json_spirit_writer_template.h \
+ /root/moneta/src/json/json_spirit_value.h /root/moneta/src/key.h \
+ /root/moneta/src/allocators.h /root/moneta/src/serialize.h \
+ /root/moneta/src/version.h /root/moneta/src/clientversion.h \
+ /root/moneta/src/uint256.h /root/moneta/src/hash.h \
+ /root/moneta/src/script.h /root/moneta/src/keystore.h \
+ /root/moneta/src/crypter.h /root/moneta/src/key.h \
+ /root/moneta/src/sync.h /root/moneta/src/threadsafety.h \
+ /root/moneta/src/bignum.h /root/moneta/src/util.h \
+ /root/moneta/src/netbase.h /root/moneta/src/compat.h \
+ /root/moneta/src/util.h
+test/canonical_tests.cpp :
+ /root/moneta/src/json/json_spirit_writer_template.h :
+ /root/moneta/src/json/json_spirit_value.h /root/moneta/src/key.h :
+ /root/moneta/src/allocators.h /root/moneta/src/serialize.h :
+ /root/moneta/src/version.h /root/moneta/src/clientversion.h :
+ /root/moneta/src/uint256.h /root/moneta/src/hash.h :
+ /root/moneta/src/script.h /root/moneta/src/keystore.h :
+ /root/moneta/src/crypter.h /root/moneta/src/key.h :
+ /root/moneta/src/sync.h /root/moneta/src/threadsafety.h :
+ /root/moneta/src/bignum.h /root/moneta/src/util.h :
+ /root/moneta/src/netbase.h /root/moneta/src/compat.h :
+ /root/moneta/src/util.h :
